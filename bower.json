@@ -1,0 +1,29 @@
+{
+  "name": "ng-sirmaspa",
+  "version": "1.0.0",
+  "homepage": "https://github.com/radko26/ng-sirmaspa",
+  "authors": [
+    "Radoslav Petkov"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.14",
+    "angular": "~1.3.9",
+    "angular-mocks": "~1.3.9",
+    "angular-ui-router": "~0.2.13",
+    "angular-route": "~1.3.9"
+  },
+  "resolutions": {
+    "angular": "~1.3.9"
+  },
+  "devDependencies": {
+    "jquery": "~2.1.3",
+    "oclazyload": "~0.5.2",
+    "bootstrap": "~3.3.1",
+    "jquery-ui": "~1.11.3"
+  }
+}

@@ -1,0 +1,36 @@
+.column {
+   
+    border:1px solid red;
+    width: 100%;
+    padding-bottom:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .portlet {
+    border:1px solid green;
+    margin: 5px;
+    padding: 10px;
+
+  }
+  .portlet-header {
+    cursor:all-scroll;
+    border:1px solid grey;
+    padding: 4px;
+    margin-bottom: 10px;
+
+  }
+  .portlet-content {
+    padding: 15px;
+    background:#ccc;
+  }
+  .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 10px;
+    height: 50px;
+  }
+
+
+  .layout-column
+  {
+    border:1px solid red;
+  }

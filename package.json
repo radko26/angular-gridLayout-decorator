@@ -1,0 +1,45 @@
+{
+  "name": "ng-sirmaspa",
+  "version": "1.0.0",
+  "description": "UI",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/radko26/ng-sirmaspa.git"
+  },
+  "author": "Radoslav Petkov",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "commander": "^2.6.0",
+    "gulp": "^3.5.6",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.4.3",
+    "gulp-connect": "^2.0.5",
+    "gulp-htmlmin": "~0.1.1",
+    "gulp-imagemin": "^0.6.1",
+    "gulp-jshint": "^1.9.0",
+    "gulp-karma": "^0.0.3",
+    "gulp-less": "^2.0.1",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-ng-annotate": "^0.4.3",
+    "gulp-sonar": "^1.0.2",
+    "gulp-uglify": "^0.1.0",
+    "gulp-util": "^2.2.20",
+    "gulp-webserver": "^0.9.0",
+    "imagemin-pngquant": "^4.0.0",
+    "jshint-stylish": "^1.0.0",
+    "karma": "^0.12.0",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^0.2.7",
+    "karma-mocha": "^0.1.10",
+    "karma-mocha-reporter": "^0.3.1",
+    "karma-phantomjs-launcher": "^0.1.2",
+    "karma-requirejs": "^0.2.1",
+    "mocha": "^2.1.0",
+    "requirejs": "^2.1.15"
+  }
+}
