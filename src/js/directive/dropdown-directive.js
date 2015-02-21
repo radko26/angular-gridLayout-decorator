@@ -67,7 +67,7 @@ define(
                     extraColumns--;
                  } 
                  $('.layout-column:last-child > .column').append(elements);
-
+                  changeColumnsSizes(newColumnsSizes);
               }else if(newColumnsSizes.length > oldColumnsSizes.length){
                   changeColumnsSizes(newColumnsSizes);
                   var counter = oldColumnsSizes.length;
@@ -93,4 +93,4 @@ define(
    }])
 
   }
-  );
+);
