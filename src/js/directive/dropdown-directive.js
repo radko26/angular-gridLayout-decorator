@@ -65,8 +65,7 @@ define(
                         });
 
                         scope.$watch('option', function(newValue, oldValue) {
-
-
+                            
                             var newColumnsSizes = newValue.split(',');
                             var oldColumnsSizes = oldValue.split(',');
 
@@ -82,14 +81,18 @@ define(
                                 }
                                 $('.layout-column:last-child > .column').append(elements);
                                 changeColumnsSizes(newColumnsSizes);
+
                             } else if (newColumnsSizes.length > oldColumnsSizes.length) {
+
                                 changeColumnsSizes(newColumnsSizes);
                                 var counter = oldColumnsSizes.length;
                                 while (counter < newColumnsSizes.length) {
                                     var newColumn = ('<div class="layout-column col-md-{size} col-xs-{size} col-sm-{size} col-lg-{size}"><div class="column"></div></div>').replace(/{size}/g, newColumnsSizes[counter++]);
                                     $('.row').append(newColumn);
                                 }
+
                             } else {
+
                                 changeColumnsSizes(newColumnsSizes);
 
                             }
