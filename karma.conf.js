@@ -6,17 +6,10 @@ module.exports = function(config) {
     { pattern: 'src/js/**/*.js', included: false }
   ];
 
-  var options = JSON.parse(process.argv[2]);
-
-  if (options.tests) {
-    testFiles.push({ pattern: 'test/unit/' + options.test, included: false });
-  } else {
-    testFiles.push({ pattern: 'test/unit/**/*.js', included: false });
-  }
 
   config.set({
     basePath: '',
-    frameworks: ['requirejs','mocha', 'chai'],
+    frameworks: ['requirejs','mocha', 'syn'],
     reporters: ['mocha', 'coverage'],
     preprocessors: {
       'src/js/**/*.js': ['coverage']
