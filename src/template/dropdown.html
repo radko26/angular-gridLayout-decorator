@@ -4,11 +4,13 @@
      Change Layout<span class="caret"></span>
     </a>
     <ul class="dropdown-menu" role="menu" ng-init="option = '6,6'">
-    	 <li><a href="#" ng-click="option = '6,6' ">6,6</a></li>
-    	 <li><a href="#" ng-click="option = '4,8' ">4,8</a></li>
-    	 <li><a href="#" ng-click="option = '4,4,4' ">4,4,4</a></li>
-    	 <li><a href="#" ng-click="option = '12' ">12</a></li>
+    	 <li><a href="#" ng-click="option = '6,6' " ng-bind-html="generateDropdownOptionView( '6,6' )"></a></li>
+    	 <li><a href="#" ng-click="option = '4,8' " ng-bind-html="generateDropdownOptionView( '4,8' )"></a></li>
+    	 <li><a href="#" ng-click="option = '8,4' " ng-bind-html="generateDropdownOptionView( '8,4' )"></a></li>
+    	 <li><a href="#" ng-click="option = '4,4,4' " ng-bind-html="generateDropdownOptionView( '4,4,4' )"></a></li>
+    	 <li><a href="#" ng-click="option = '12' " ng-bind-html="generateDropdownOptionView( '12' ) "></a></li>
     </ul>
   </li>  
 </ul>
+
 
